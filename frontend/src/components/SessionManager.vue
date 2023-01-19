@@ -94,10 +94,8 @@ export default {
                 };
                 this.loginUser(data);
                 this.resetData();
-                console.log('Nao Pegou');
             } else {
                 alert('Invalid email or password!');
-                console.log('Pegou');
             }
         },
         resetData() {
